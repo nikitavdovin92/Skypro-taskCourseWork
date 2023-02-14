@@ -6,7 +6,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] arr = {6, 7, 7, 3, 2, 1, 5, 5};
+        int[] arr = {13526, 14522, 14522, 13526, 1753225, 1824355, 183333, 2543545};
+
 
         int[] distinct = removeDuplicates(arr);
         System.out.println(Arrays.toString(distinct));
